@@ -463,12 +463,15 @@ class Captcha
     }
 
     /**
-     * return captcha text
+     * get captcha text
      *
      * @return string
      */
     public function getText()
     {
+        if(null === $this->text){
+            $this->text = '';
+        }
         return $this->text;
     }
 
