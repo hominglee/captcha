@@ -1,6 +1,6 @@
 {
     "name": "realhome/captcha",
-    "description": "Laravel 5 Captcha Package With Redis",
+    "description": "Laravel 5 Captcha Package Extend",
     "keywords": ["laravel", "captcha", "redis"],
     "homepage": "https://github.com/realhome/captcha",
     "license": "MIT",
