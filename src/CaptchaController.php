@@ -1,12 +1,12 @@
 <?php
 
-namespace Mews\Captcha;
+namespace Realhome\Captcha;
 
 use Illuminate\Routing\Controller;
 
 /**
  * Class CaptchaController
- * @package Mews\Captcha
+ * @package Realhome\Captcha
  */
 class CaptchaController extends Controller
 {
@@ -14,7 +14,7 @@ class CaptchaController extends Controller
     /**
      * get CAPTCHA
      *
-     * @param \Mews\Captcha\Captcha $captcha
+     * @param \Realhome\Captcha\Captcha $captcha
      * @param string $config
      * @return \Intervention\Image\ImageManager->response
      */

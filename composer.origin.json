@@ -28,7 +28,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Mews\\Captcha\\": "src/"
+			"Realhome\\Captcha\\": "src/"
 		},
 		"files": [
 			"src/helpers.php"
@@ -39,17 +39,17 @@
 			"tests"
 		],
 		"psr-4": {
-			"Mews\\Test\\": "tests/"
+			"Realhome\\Test\\": "tests/"
 		}
 	},
 	"minimum-stability": "dev",
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Mews\\Captcha\\CaptchaServiceProvider"
+				"Realhome\\Captcha\\CaptchaServiceProvider"
 			],
 			"aliases": {
-				"Captcha": "Mews\\Captcha\\Facades\\Captcha"
+				"Captcha": "Realhome\\Captcha\\Facades\\Captcha"
 			}
 		}
 	}
