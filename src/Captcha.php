@@ -462,4 +462,14 @@ class Captcha
         return '<img src="' . $this->src($config) . '" '. trim($attrs_str).'>';
     }
 
+    /**
+     * return captcha text
+     *
+     * @return string
+     */
+    public function getText()
+    {
+        return $this->text;
+    }
+
 }
